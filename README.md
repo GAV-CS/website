@@ -1,10 +1,8 @@
-# Gavilan CS Website
+# Below is a list of people and organizations that have contributed
+# to the Flutter project. Names should be added to the list like so:
+#
+#   Name/Organization <email address>
 
-Gavilan College's Computer Science Club website. This is a community effort from members of the club and will be updated throughout the school year.
-
-## Getting Started
-
-To download and/or help contribute to this project, follow with the instructions below.
 
 ### Prerequisites
 
@@ -75,11 +73,11 @@ Please read our contribution manual for details on our code of conduct, and the 
 
 ## Authors
 
-See  the list of [contributors](https://github.com/your/project/contributors) who participated in this project. (Coming Soon)
+See  the list of [contributors](AUTHORS) who participated in this project.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE.md](LICENSE) file for details
 
 ## Acknowledgments
 
