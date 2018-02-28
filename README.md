@@ -1,8 +1,11 @@
-# Below is a list of people and organizations that have contributed
-# to the Flutter project. Names should be added to the list like so:
-#
-#   Name/Organization <email address>
 
+# Gavilan CS Website
+
+Gavilan College's Computer Science Club website. This is a community effort from members of the club and will be updated throughout the school year.
+
+## Getting Started
+
+To download and/or help contribute to this project, follow with the instructions below.
 
 ### Prerequisites
 
