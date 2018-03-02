@@ -76,7 +76,7 @@ Please read our contribution manual for details on our code of conduct, and the 
 
 ## Authors
 
-See  the list of [contributors](AUTHORS) who participated in this project.
+See  the list of [contributors](AUTHORS.md) who participated in this project.
 
 ## License
 

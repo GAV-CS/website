@@ -1,0 +1,21 @@
+
+.navbar-brand {
+    max-width: 4em;
+}
+.btn-social-icon.btn-lg {
+    height: 2em;
+    width: 4em;
+    margin-right: .25em;
+}
+.fa {
+    color: #fff;
+}
+.carousel-caption {
+    background: rgba(39,62,84,0.82);
+    overflow: hidden;
+    z-index: 2;
+}
+#About {
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
