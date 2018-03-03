@@ -18,8 +18,7 @@ Below is a list of people in the organization that have contributed to the websi
 
 * Member Name - Position - Email Address
 
-    * John Foo - position - City (Country)
-    * Bar Doe - position - City (Country)
+    * John Foo - FooBar Consultant - Jon.Foo@Bar.com
 
 ## Special thanks to
 Alexandre Stoykov (CS Club Faculty Member/Mentor)
