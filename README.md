@@ -1,6 +1,6 @@
 
 # Gavilan CS Website
-# now live @ https://gavcs.club !!!
+# now live @ https://www.gavcs.club !!!
 
 Gavilan College's Computer Science Club website. This is a community effort from members of the club and will be updated throughout the school year.
 
