@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -13,122 +14,90 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <!-- Custom Css -->
     <link rel="stylesheet" href="styles/style.css">
+    <!-- Custom Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
 
     <title>Gavilan Computer Science Club</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <!-- Navbar -->
-     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <img class="navbar-brand" src="images/gcs_logo.png" href="#" alt="Gavilan Computer Science Club"></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a href="index.html"><img class="navbar-brand" src="images/gcs_logo.png" href="#" alt="Gavilan Computer Science Club"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#Home">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#About">About</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Events
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#Workshops"> - Workshops</a>
-          <a class="dropdown-item" href="#Upcoming"> - Upcoming</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#Hackathons"> - Hackathons</a>
-        </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#Projects">Projects</a>
-      </li>
-    </ul>
+        <div class="collapse navbar-collapse center-text" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="events.html">Events</a>
+                </li>
+                <li class="nav-item projects">
+                    <a class="nav-link" href="projects.html">Projects<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="blog.html">Blog</a>
+                </li>
+            </ul>
 
-    <!--Social Media Buttons -->
-    <div id="Social-Media-Icons">
-      <a class="btn btn-social-icon btn-lg btn-facebook" href="https://www.facebook.com/GavCSClub/"><i class="fa fa-facebook"></i></a>
-      <a class="btn btn-social-icon btn-lg btn-twitter"><i class="fa fa-twitter"></i></a>
-      <a class="btn btn-social-icon btn-lg btn-github" href="https://github.com/GAV-CS/"><i class="fa fa-github"></i></a>
-    </div>
-  </div>
-  </nav>
-  <!-- End Navbar -->
-
-  <!-- Carousel Banner -->
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="images/slider-1.jpg" alt="First slide">
-        <div class="carousel-caption d-none d-md-block">
-        <h5>Get Hands-On With Hardware</h5>
-        <p>From Arduino boards to operating a drone, Computer Science can help bridge the gap between technology and fun</p>
+            <!--Social Media Buttons -->
+            <div id="Social-Media-Icons">
+                <a class="btn btn-social-icon btn-lg btn-facebook" href="https://www.facebook.com/GavCSClub/"><i class="fa fa-facebook"></i></a>
+                <a class="btn btn-social-icon btn-lg btn-slack" href="https://gavcs.slack.com"><i class="fa fa-slack"></i></a>
+                <a class="btn btn-social-icon btn-lg btn-linkedin"><i class="fa fa-linkedin"></i></a>
+                <a class="btn btn-social-icon btn-lg btn-github" href="https://github.com/GAV-CS/"><i class="fa fa-github"></i></a>
+            </div>
         </div>
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="images/slider-2.jpg" alt="Second slide">
-        <div class="carousel-caption d-none d-md-block">
-        <h5>Learn to code</h5>
-        <p>The CS Club can help you learn new programming languages, including Python, C++, Java, HTML, and PHP</p>
-        </div>
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="images/slider-3.jpg" alt="Third slide">     
-        <div class="carousel-caption d-none d-md-block">
-        <h5>Network & Compete</h5>
-        <p>The Gavilan CS Club offers exciting opportunities to meet with fellow students and compete to show of your skills</p>
-        </div>
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
+    </nav>
+    <!-- End Navbar -->
 
-    <!-- End Carousel -->
-
-    <!-- About Section -->
-      <div class="container-fluid" id="About">
-        <div class="card-deck">
-  <div class="card">
-    <div class="card-body">
-      <h5 class="card-title">About Us</h5>
-      <p class="card-text">The Gavilan Computer Science Club is available for students to relax, study and collaborate with other students for class or projects involving Computer Science. Our meetings are held every Tuesday, 12-1PM in BUS-118. </p>
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-body">
-      <h5 class="card-title">Our Goals</h5>
-      <p class="card-text">Gavilan's CS Club provides networking opportunities both inside and out of the classroom. They also strive to attend major hackathon competitions, as well as provide instructional aides for all members.</p>
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-body">
-      <h5 class="card-title">Become a Member</h5>
-      <p class="card-text">To become a member, simply attend one of our meetings or submit a contact request form below</p>
-      <button type="button" class="btn btn-primary btn-lg btn-block">Join Here</button>
-    </div>
-  </div>
-</div>
-      </div>
-    <!-- End About Section -->
+   <!-- Start of Footer Section -->
+    <footer class="footer">
+    <div class="container">
+        <div class="row">
+        <div class="col-sm-5">
+            <h4 class="title">Gavilan CS Club</h4>
+            <p>A club for any Gavilan students interested in the world of Computer Science.</p>
+            <ul class="social-icon">
+                <a href="#" class="social"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="#" class="social"><i class="fa fa-slack" aria-hidden="true"></i></a>
+                <a href="#" class="social"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                <a href="#" class="social"><i class="fa fa-github" aria-hidden="true"></i></a>
+            </ul>
+        </div>
+        <div class="col-sm-3">
+            <h4 class="title">Site Map</h4>
+            <span class="acount-icon">          
+            <a href="index.html"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
+            <a href="about.html"><i class="fa fa-question" aria-hidden="true"></i> About</a>
+            <a href="events.html"><i class="fa fa-calendar" aria-hidden="true"></i>Events</a>
+            <a href="projects.html"><i class="fa fa-code" aria-hidden="true"></i>Projects</a>
+            <a href="blog.html"><i class="fa fa-globe" aria-hidden="true"></i> Blog</a> 
+            </span>
+        </div>
+        <div class="col-sm-4">
+            <h4 class="title">Become a member</h4>
+            <p>Membership is free and easy, any student at Gavilan can apply.</p>
+            <div class="footer-membership">
+                <button class="container-fluid btn btn-secondary" type="submit"> Signup </button>
+            </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row text-center"><a href="index.html" style="color: #fff;">Copyright © Gavilan CS Club 2018</a></div>
+    </div>	
+</footer>
+<!-- End of Footer Section -->
+   
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
-  </body>
+</body>
+
 </html>

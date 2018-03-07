@@ -23,39 +23,32 @@
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <img class="navbar-brand" src="images/gcs_logo.png" href="#" alt="Gavilan Computer Science Club">
+        <a href="index.html"><img class="navbar-brand" src="images/gcs_logo.png" href="#" alt="Gavilan Computer Science Club"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse center-text" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#Home">Home <span class="sr-only">(current)</span></a>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#About">About</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Events
-        </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#Workshops"> - Workshops</a>
-                        <a class="dropdown-item" href="#Upcoming"> - Upcoming</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#Hackathons"> - Hackathons</a>
-                    </div>
+                    <a class="nav-link" href="events.html">Events</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#Projects">Projects</a>
+                    <a class="nav-link" href="projects.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="blog.html">Blog</a>
                 </li>
             </ul>
 
             <!--Social Media Buttons -->
             <div id="Social-Media-Icons">
                 <a class="btn btn-social-icon btn-lg btn-facebook" href="https://www.facebook.com/GavCSClub/"><i class="fa fa-facebook"></i></a>
-                <a class="btn btn-social-icon btn-lg btn-twitter"><i class="fa fa-twitter"></i></a>
+                <a class="btn btn-social-icon btn-lg btn-slack" href="https://gavcs.slack.com"><i class="fa fa-slack"></i></a>
+                <a class="btn btn-social-icon btn-lg btn-linkedin"><i class="fa fa-linkedin"></i></a>
                 <a class="btn btn-social-icon btn-lg btn-github" href="https://github.com/GAV-CS/"><i class="fa fa-github"></i></a>
             </div>
         </div>
@@ -104,7 +97,7 @@
 
     <!-- End Carousel -->
 
-    <!-- About Section -->
+    <!-- Card Section -->
     <div class="container-fluid" id="About">
         <div class="card-deck">
             <div class="card">
@@ -121,66 +114,85 @@
             </div>
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">Become a Member</h5>
-                    <p class="card-text">To become a member, simply attend one of our meetings or submit a contact request form below</p>
-                    <button type="button" class="btn btn-primary btn-lg btn-block">Join Here</button>
+                    <h5 class="card-title">Upcoming Events</h5>
+                    <p class="card-text row">
+                        <div class="col-sm-12"><b>13 MAR</b> - CS Club Meeting </div>
+                        <div class="col-sm-12"><b>20 MAR</b> - CS Club Meeting </div>
+                        <div class="col-sm-12"><b>27 MAR</b> - Organization Day </div>
+                    </p>
+                    <a href="events.html"><button type="button" class="btn btn-success btn-lg btn-block">View Events</button></a>
                 </div>
             </div>
         </div>
     </div>
-    <!-- End About Section -->
+    <!-- End Card Section -->
 
-    <!-- Start Events Section -->
-    <div class="col-md-12 text-center" id="Upcoming">
-        <h2>Upcoming Events</h2>
-    </div>
-    <div class="row">
+    <!-- Start Membership Section -->
+    <div class="container-fluid">
+        <div class="title-arch"><b>Join Us</b>
+            <p><br>Becoming a member of the CS club is <i>free</i> and there's a lot of benefits</p>
+        </div>
+        <div class="row container-fluid">
+           <div class="col-sm-2"></div>
+            <div class="col-sm-4">
+                <p class="benefits">Free for any Gavilan student<br></p>
+                <p class="benefits"> Leadership Positions Available<br></p>
+                <p class="benefits"> Compete in Hackathons<br></p>
+                <p class="benefits"> Learn tips & tricks of the industry <br></p>
+                <p class="benefits"> Sharpen your resume <br></p>
+                <p class="benefits"> Network with other Computer Science students</p>
+            </div><div class="col-sm-5"><h1 style="margin-left: 30%;"><strong>Apply Now</strong></h1>
+            <br><button class="btn btn-primary" style="width:100%;" style="submit">Submit Application</button></div>
+            <div class="col-sm-1"></div>
+        </div>
 
-        <div class="col-sm-1 event-gutter"></div>
-        <div class="col-sm-3 event">
-            <div class="container thumbnail">
-                <img class="img-thumbnail" src="images/gcs_logo.png">
-            </div>
-            <div class="col-md-12">
-                <h4><span class="label label-primary">6 March 2018</span></h4>
-            </div>
-            <div class="col-md-12">
-                <strong>CS Club Meeting</strong><br>
-                <em>BUS 118 @ Gavilan Campus</em><br>
-                <span class="small">12:00</span>
-            </div>
-        </div>
-        <div class="col-sm-1 event-gutter"></div>
-        <div class="col-sm-3 event">
-            <div class="container thumbnail">
-                <img class="img-thumbnail" src="images/gcs_logo.png">
-            </div>
-            <div class="col-md-12">
-                <h4><span class="label label-primary">13 March 2018</span></h4>
-            </div>
-            <div class="col-md-12">
-                <strong>CS Club Meeting</strong><br>
-                <em>BUS 118 @ Gavilan Campus</em><br>
-                <span class="small">12:00</span>
-            </div>
-        </div>
-        <div class="col-sm-1 event-gutter"></div>
-        <div class="col-sm-3 event">
-            <div class="container thumbnail">
-                <img class="img-thumbnail" src="images/gcs_logo.png">
-            </div>
-            <div class="col-md-12">
-                <h4><span class="label label-primary">20 March 2018</span></h4>
-            </div>
-            <div class="col-md-12">
-                <strong>CS Club Meeting</strong><br>
-                <em>BUS 118 @ Gavilan Campus</em><br>
-                <span class="small">12:00</span>
-            </div>
-        </div>
+
+        <div class="clearfix"></div>
     </div>
-    <!-- End of Events -->
+
+    <!-- End of Membership Section -->
+    
+    <!-- Start of Footer Section -->
+    <footer class="footer">
+    <div class="container">
+        <div class="row">
+        <div class="col-sm-5">
+            <h4 class="title">Gavilan CS Club</h4>
+            <p>A club for any Gavilan students interested in the world of Computer Science.</p>
+            <ul class="social-icon">
+                <a href="#" class="social"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="#" class="social"><i class="fa fa-slack" aria-hidden="true"></i></a>
+                <a href="#" class="social"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                <a href="#" class="social"><i class="fa fa-github" aria-hidden="true"></i></a>
+            </ul>
+        </div>
+        <div class="col-sm-3">
+            <h4 class="title">Site Map</h4>
+            <span class="acount-icon">          
+            <a href="index.html"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
+            <a href="about.html"><i class="fa fa-question" aria-hidden="true"></i> About</a>
+            <a href="events.html"><i class="fa fa-calendar" aria-hidden="true"></i>Events</a>
+            <a href="projects.html"><i class="fa fa-code" aria-hidden="true"></i>Projects</a>
+            <a href="blog.html"><i class="fa fa-globe" aria-hidden="true"></i> Blog</a> 
+            </span>
+        </div>
+        <div class="col-sm-4">
+            <h4 class="title">Become a member</h4>
+            <p>Membership is free and easy, any student at Gavilan can apply.</p>
+            <div class="footer-membership">
+                <button class="container-fluid btn btn-secondary" type="submit"> Signup </button>
+            </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row text-center"><a href="index.html" style="color: #fff;">Copyright © Gavilan CS Club 2018</a></div>
+    </div>	
+</footer>
+<!-- End of Footer Section -->
+    
+
     <!-- Optional JavaScript -->
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

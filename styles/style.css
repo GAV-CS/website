@@ -9,7 +9,7 @@ h5 {
 body {
     font-family: 'Open Sans', sans-serif;
 }
-
+/*Navbar START///////////////////*/
 .navbar-brand {
     max-width: 4em;
 }
@@ -23,7 +23,7 @@ body {
 .fa {
     color: #fff;
 }
-
+/*Carousel START///////////////////*/
 .carousel-caption {
     background: rgba(39, 62, 84, 0.82);
     overflow: hidden;
@@ -36,8 +36,76 @@ body {
     margin-bottom: 2em;
 }
 
-
+/*Membership START///////////////////*/
 .thumbnail {
     position: relative;
     width: 7rem;
     float: left;
+}
+
+.title-arch {
+		text-align: center;
+		margin: 50px 0;
+		font-size: 22px;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+	}
+
+/*FOOTER START///////////////////*/
+.footer {
+    padding: 25px 0 5px 0;
+    background-color: #24292E;
+    color: white;
+}
+.footer .title{
+	text-align: left;
+	color:#fff;
+	font-size:25px;
+}
+.footer .social-icon{
+	padding:0px;
+	margin:0px;
+}
+.footer .social-icon a{
+	display:inline-block;
+	color:#fff;
+	font-size:25px;
+	padding:5px;
+}
+.footer .acount-icon a{
+	display:block;
+	color:#fff;
+	font-size:18px;
+	padding:5px;
+	text-decoration:none;
+}
+.footer .acount-icon .fa{
+	margin-right:25px;
+}
+.footer .category a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 20px;
+    margin: 1px;
+    border-radius:4px;
+    margin-top: 6px;
+    background-color: black;
+    border: solid 1px #fff;
+}
+.footer .footer-membership{
+	margin:0px;
+	padding:0px;
+	list-style-type:none
+}
+.footer .footer-membership li{
+	list-style-type:none
+}
+.footer .footer-membership li a {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    float: left;
+    font-size: 25px;
+    padding: 10px 10px;
+}
