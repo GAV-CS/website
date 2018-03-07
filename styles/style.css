@@ -38,7 +38,7 @@ body {
 
 /*Membership START///////////////////*/
 .thumbnail {
-    position: relative;
+    position: absolute;
     width: 7rem;
     float: left;
 }
@@ -53,6 +53,7 @@ body {
 
 /*FOOTER START///////////////////*/
 .footer {
+    bottom: 0;
     padding: 25px 0 5px 0;
     background-color: #24292E;
     color: white;
