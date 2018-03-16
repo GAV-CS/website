@@ -7,21 +7,32 @@
  * https://github.com/lipis/bootstrap-social
  */
 
-.btn-social{position:relative;padding-left:44px;text-align:left;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.btn-social>:first-child{position:absolute;left:0;
-top:0;
-bottom:0;
-width:32px;
-line-height:34px;
-font-size:1.6em;
-text-align:center;
-border-right:1px solid rgba(0, 0, 0, 0.2)
+.btn-social {
+    position: relative;
+    padding-left: 44px;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.btn-social>:first-child {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 32px;
+    line-height: 34px;
+    font-size: 1.6em;
+    text-align: center;
+    border-right: 1px solid rgba(0, 0, 0, 0.2)
 }
 
 .btn-social.btn-lg {
     padding-left: 61px
 }
 
-.btn-social.btn-lg > :first-child {
+.btn-social.btn-lg> :first-child {
     line-height: 45px;
     width: 45px;
     font-size: 1.8em
@@ -31,47 +42,359 @@ border-right:1px solid rgba(0, 0, 0, 0.2)
     padding-left: 38px
 }
 
-.btn-social.btn-sm > :first-child {
+.btn-social.btn-sm> :first-child {
     line-height: 28px;
     width: 28px;
     font-size: 1.4em
 }
 
 .btn-social.btn-xs {
-    padding-left:30px}.btn-social.btn-xs>:first-child{line-height:20px;width:20px;font-size:1.2em}
-.btn-social-icon{position:relative;padding-left:44px;text-align:left;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;height:34px;width:34px;padding:0}.btn-social-icon>:first-child{position:absolute;left:0;top:0;bottom:0;width:32px;line-height:34px;font-size:1.6em;text-align:center;border-right:1px solid rgba(0,0,0,0.2)}
-.btn-social-icon.btn-lg{padding-left:61px}.btn-social-icon.btn-lg>:first-child{line-height:45px;width:45px;font-size:1.8em}
-.btn-social-icon.btn-sm{padding-left:38px}.btn-social-icon.btn-sm>:first-child{line-height:28px;width:28px;font-size:1.4em}
-.btn-social-icon.btn-xs{padding-left:30px}.btn-social-icon.btn-xs>:first-child{line-height:20px;width:20px;font-size:1.2em}
-.btn-social-icon>:first-child{border:none;text-align:center;width:100% !important}
-.btn-social-icon.btn-lg{height:45px;width:45px;padding-left:0;padding-right:0}
-.btn-social-icon.btn-sm{height:30px;width:30px;padding-left:0;padding-right:0}
-.btn-social-icon.btn-xs{height:22px;width:22px;padding-left:0;padding-right:0}
+    padding-left: 30px
+}
 
-.btn-facebook{color:#fff;background-color:#3b5998;border-color:rgba(0,0,0,0.2)}.btn-facebook:focus,.btn-facebook.focus{color:#fff;background-color:#2d4373;border-color:rgba(0,0,0,0.2)}
-.btn-facebook:hover{color:#fff;background-color:#2d4373;border-color:rgba(0,0,0,0.2)}
-.btn-facebook:active,.btn-facebook.active,.open>.dropdown-toggle.btn-facebook{color:#fff;background-color:#2d4373;border-color:rgba(0,0,0,0.2)}.btn-facebook:active:hover,.btn-facebook.active:hover,.open>.dropdown-toggle.btn-facebook:hover,.btn-facebook:active:focus,.btn-facebook.active:focus,.open>.dropdown-toggle.btn-facebook:focus,.btn-facebook:active.focus,.btn-facebook.active.focus,.open>.dropdown-toggle.btn-facebook.focus{color:#fff;background-color:#23345a;border-color:rgba(0,0,0,0.2)}
-.btn-facebook:active,.btn-facebook.active,.open>.dropdown-toggle.btn-facebook{background-image:none}
-.btn-facebook.disabled:hover,.btn-facebook[disabled]:hover,fieldset[disabled] .btn-facebook:hover,.btn-facebook.disabled:focus,.btn-facebook[disabled]:focus,fieldset[disabled] .btn-facebook:focus,.btn-facebook.disabled.focus,.btn-facebook[disabled].focus,fieldset[disabled] .btn-facebook.focus{background-color:#3b5998;border-color:rgba(0,0,0,0.2)}
-.btn-facebook .badge{color:#3b5998;background-color:#fff}
+.btn-social.btn-xs>:first-child {
+    line-height: 20px;
+    width: 20px;
+    font-size: 1.2em
+}
 
-.btn-github{color:#fff;background-color:#444;border-color:rgba(0,0,0,0.2)}.btn-github:focus,.btn-github.focus{color:#fff;background-color:#2b2b2b;border-color:rgba(0,0,0,0.2)}
-.btn-github:hover{color:#fff;background-color:#2b2b2b;border-color:rgba(0,0,0,0.2)}
-.btn-github:active,.btn-github.active,.open>.dropdown-toggle.btn-github{color:#fff;background-color:#2b2b2b;border-color:rgba(0,0,0,0.2)}.btn-github:active:hover,.btn-github.active:hover,.open>.dropdown-toggle.btn-github:hover,.btn-github:active:focus,.btn-github.active:focus,.open>.dropdown-toggle.btn-github:focus,.btn-github:active.focus,.btn-github.active.focus,.open>.dropdown-toggle.btn-github.focus{color:#fff;background-color:#191919;border-color:rgba(0,0,0,0.2)}
-.btn-github:active,.btn-github.active,.open>.dropdown-toggle.btn-github{background-image:none}
-.btn-github.disabled:hover,.btn-github[disabled]:hover,fieldset[disabled] .btn-github:hover,.btn-github.disabled:focus,.btn-github[disabled]:focus,fieldset[disabled] .btn-github:focus,.btn-github.disabled.focus,.btn-github[disabled].focus,fieldset[disabled] .btn-github.focus{background-color:#444;border-color:rgba(0,0,0,0.2)}
-.btn-github .badge{color:#444;background-color:#fff}
+.btn-social-icon {
+    position: relative;
+    padding-left: 44px;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 34px;
+    width: 34px;
+    padding: 0
+}
 
-.btn-linkedin{color:#fff;background-color:#007bb6;border-color:rgba(0,0,0,0.2)}.btn-linkedin:focus,.btn-linkedin.focus{color:#fff;background-color:#005983;border-color:rgba(0,0,0,0.2)}
-.btn-linkedin:hover{color:#fff;background-color:#005983;border-color:rgba(0,0,0,0.2)}
-.btn-linkedin:active,.btn-linkedin.active,.open>.dropdown-toggle.btn-linkedin{color:#fff;background-color:#005983;border-color:rgba(0,0,0,0.2)}.btn-linkedin:active:hover,.btn-linkedin.active:hover,.open>.dropdown-toggle.btn-linkedin:hover,.btn-linkedin:active:focus,.btn-linkedin.active:focus,.open>.dropdown-toggle.btn-linkedin:focus,.btn-linkedin:active.focus,.btn-linkedin.active.focus,.open>.dropdown-toggle.btn-linkedin.focus{color:#fff;background-color:#00405f;border-color:rgba(0,0,0,0.2)}
-.btn-linkedin:active,.btn-linkedin.active,.open>.dropdown-toggle.btn-linkedin{background-image:none}
-.btn-linkedin.disabled:hover,.btn-linkedin[disabled]:hover,fieldset[disabled] .btn-linkedin:hover,.btn-linkedin.disabled:focus,.btn-linkedin[disabled]:focus,fieldset[disabled] .btn-linkedin:focus,.btn-linkedin.disabled.focus,.btn-linkedin[disabled].focus,fieldset[disabled] .btn-linkedin.focus{background-color:#007bb6;border-color:rgba(0,0,0,0.2)}
-.btn-linkedin .badge{color:#007bb6;background-color:#fff}
+.btn-social-icon>:first-child {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 32px;
+    line-height: 34px;
+    font-size: 1.6em;
+    text-align: center;
+    border-right: 1px solid rgba(0, 0, 0, 0.2)
+}
 
-.btn-slack{color:#fff;background-color:#68BE97;border-color:rgba(0,0,0,0.2)}.btn-tumblr:focus,.btn-tumblr.focus{color:#fff;background-color:#5dab87;border-color:rgba(0,0,0,0.2)}
-.btn-slack:hover{color:#fff;background-color:#5dab87; border-color:rgba(0,0,0,0.2)}
-.btn-slack:active,.btn-slack.active,.open>.dropdown-toggle.btn-slack{color:#fff;background-color:#1c2d3f;border-color:rgba(0,0,0,0.2)}.btn-slack:active:hover,.btn-slack.active:hover,.open>.dropdown-toggle.btn-slack:hover,.btn-slack:active:focus,.btn-slack.active:focus,.open>.dropdown-toggle.btn-slack:focus,.btn-slack:active.focus,.btn-slack.active.focus,.open>.dropdown-toggle.btn-slack.focus{color:#fff;background-color:#111c26;border-color:rgba(0,0,0,0.2)}
-.btn-slack:active,.btn-slack.active,.open>.dropdown-toggle.btn-slack{background-image:none}
-.btn-slack.disabled:hover,.btn-slack[disabled]:hover,fieldset[disabled] .btn-slack:hover,.btn-slack.disabled:focus,.btn-slack[disabled]:focus,fieldset[disabled] .btn-slack:focus,.btn-slack.disabled.focus,.btn-slack[disabled].focus,fieldset[disabled] .btn-slack.focus{background-color:#2c4762;border-color:rgba(0,0,0,0.2)}
-.btn-slack .badge{color:#2c4762;background-color:#fff}
+.btn-social-icon.btn-lg {
+    padding-left: 61px
+}
+
+.btn-social-icon.btn-lg>:first-child {
+    line-height: 45px;
+    width: 45px;
+    font-size: 1.8em
+}
+
+.btn-social-icon.btn-sm {
+    padding-left: 38px
+}
+
+.btn-social-icon.btn-sm>:first-child {
+    line-height: 28px;
+    width: 28px;
+    font-size: 1.4em
+}
+
+.btn-social-icon.btn-xs {
+    padding-left: 30px
+}
+
+.btn-social-icon.btn-xs>:first-child {
+    line-height: 20px;
+    width: 20px;
+    font-size: 1.2em
+}
+
+.btn-social-icon>:first-child {
+    border: none;
+    text-align: center;
+    width: 100% !important
+}
+
+.btn-social-icon.btn-lg {
+    height: 45px;
+    width: 45px;
+    padding-left: 0;
+    padding-right: 0
+}
+
+.btn-social-icon.btn-sm {
+    height: 30px;
+    width: 30px;
+    padding-left: 0;
+    padding-right: 0
+}
+
+.btn-social-icon.btn-xs {
+    height: 22px;
+    width: 22px;
+    padding-left: 0;
+    padding-right: 0
+}
+
+.btn-facebook {
+    color: #fff;
+    background-color: #3b5998;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-facebook:focus,
+.btn-facebook.focus {
+    color: #fff;
+    background-color: #2d4373;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-facebook:hover {
+    color: #fff;
+    background-color: #2d4373;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-facebook:active,
+.btn-facebook.active,
+.open>.dropdown-toggle.btn-facebook {
+    color: #fff;
+    background-color: #2d4373;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-facebook:active:hover,
+.btn-facebook.active:hover,
+.open>.dropdown-toggle.btn-facebook:hover,
+.btn-facebook:active:focus,
+.btn-facebook.active:focus,
+.open>.dropdown-toggle.btn-facebook:focus,
+.btn-facebook:active.focus,
+.btn-facebook.active.focus,
+.open>.dropdown-toggle.btn-facebook.focus {
+    color: #fff;
+    background-color: #23345a;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-facebook:active,
+.btn-facebook.active,
+.open>.dropdown-toggle.btn-facebook {
+    background-image: none
+}
+
+.btn-facebook.disabled:hover,
+.btn-facebook[disabled]:hover,
+fieldset[disabled] .btn-facebook:hover,
+.btn-facebook.disabled:focus,
+.btn-facebook[disabled]:focus,
+fieldset[disabled] .btn-facebook:focus,
+.btn-facebook.disabled.focus,
+.btn-facebook[disabled].focus,
+fieldset[disabled] .btn-facebook.focus {
+    background-color: #3b5998;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-facebook .badge {
+    color: #3b5998;
+    background-color: #fff
+}
+
+.btn-github {
+    color: #fff;
+    background-color: #444;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-github:focus,
+.btn-github.focus {
+    color: #fff;
+    background-color: #2b2b2b;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-github:hover {
+    color: #fff;
+    background-color: #2b2b2b;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-github:active,
+.btn-github.active,
+.open>.dropdown-toggle.btn-github {
+    color: #fff;
+    background-color: #2b2b2b;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-github:active:hover,
+.btn-github.active:hover,
+.open>.dropdown-toggle.btn-github:hover,
+.btn-github:active:focus,
+.btn-github.active:focus,
+.open>.dropdown-toggle.btn-github:focus,
+.btn-github:active.focus,
+.btn-github.active.focus,
+.open>.dropdown-toggle.btn-github.focus {
+    color: #fff;
+    background-color: #191919;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-github:active,
+.btn-github.active,
+.open>.dropdown-toggle.btn-github {
+    background-image: none
+}
+
+.btn-github.disabled:hover,
+.btn-github[disabled]:hover,
+fieldset[disabled] .btn-github:hover,
+.btn-github.disabled:focus,
+.btn-github[disabled]:focus,
+fieldset[disabled] .btn-github:focus,
+.btn-github.disabled.focus,
+.btn-github[disabled].focus,
+fieldset[disabled] .btn-github.focus {
+    background-color: #444;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-github .badge {
+    color: #444;
+    background-color: #fff
+}
+
+.btn-linkedin {
+    color: #fff;
+    background-color: #007bb6;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-linkedin:focus,
+.btn-linkedin.focus {
+    color: #fff;
+    background-color: #005983;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-linkedin:hover {
+    color: #fff;
+    background-color: #005983;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-linkedin:active,
+.btn-linkedin.active,
+.open>.dropdown-toggle.btn-linkedin {
+    color: #fff;
+    background-color: #005983;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-linkedin:active:hover,
+.btn-linkedin.active:hover,
+.open>.dropdown-toggle.btn-linkedin:hover,
+.btn-linkedin:active:focus,
+.btn-linkedin.active:focus,
+.open>.dropdown-toggle.btn-linkedin:focus,
+.btn-linkedin:active.focus,
+.btn-linkedin.active.focus,
+.open>.dropdown-toggle.btn-linkedin.focus {
+    color: #fff;
+    background-color: #00405f;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-linkedin:active,
+.btn-linkedin.active,
+.open>.dropdown-toggle.btn-linkedin {
+    background-image: none
+}
+
+.btn-linkedin.disabled:hover,
+.btn-linkedin[disabled]:hover,
+fieldset[disabled] .btn-linkedin:hover,
+.btn-linkedin.disabled:focus,
+.btn-linkedin[disabled]:focus,
+fieldset[disabled] .btn-linkedin:focus,
+.btn-linkedin.disabled.focus,
+.btn-linkedin[disabled].focus,
+fieldset[disabled] .btn-linkedin.focus {
+    background-color: #007bb6;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-linkedin .badge {
+    color: #007bb6;
+    background-color: #fff
+}
+
+.btn-slack {
+    color: #fff;
+    background-color: #68BE97;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-tumblr:focus,
+.btn-tumblr.focus {
+    color: #fff;
+    background-color: #5dab87;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-slack:hover {
+    color: #fff;
+    background-color: #5dab87;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-slack:active,
+.btn-slack.active,
+.open>.dropdown-toggle.btn-slack {
+    color: #fff;
+    background-color: #1c2d3f;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-slack:active:hover,
+.btn-slack.active:hover,
+.open>.dropdown-toggle.btn-slack:hover,
+.btn-slack:active:focus,
+.btn-slack.active:focus,
+.open>.dropdown-toggle.btn-slack:focus,
+.btn-slack:active.focus,
+.btn-slack.active.focus,
+.open>.dropdown-toggle.btn-slack.focus {
+    color: #fff;
+    background-color: #111c26;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-slack:active,
+.btn-slack.active,
+.open>.dropdown-toggle.btn-slack {
+    background-image: none
+}
+
+.btn-slack.disabled:hover,
+.btn-slack[disabled]:hover,
+fieldset[disabled] .btn-slack:hover,
+.btn-slack.disabled:focus,
+.btn-slack[disabled]:focus,
+fieldset[disabled] .btn-slack:focus,
+.btn-slack.disabled.focus,
+.btn-slack[disabled].focus,
+fieldset[disabled] .btn-slack.focus {
+    background-color: #2c4762;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-slack .badge {
+    color: #2c4762;
+    background-color: #fff
+}
