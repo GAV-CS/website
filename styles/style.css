@@ -196,6 +196,12 @@ body {
     margin-bottom: 2rem;
 }
 
+.event-body:hover {
+    position: relative;
+    margin-left: 23rem;
+    box-shadow: 2px 4px 4px 2px #0000002b;
+}
+
 div>div:nth-child(even)>div>div>div.col-2.event-date:nth-of-type(odd) {
     background-color: #35098D;
     color: white;
