@@ -180,3 +180,73 @@ body {
 .contact-icon:hover {
     color: tomato;
 }
+
+
+/*/// EVENT PAGE START ///*/
+
+.event-header {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.event-body {
+    background-color: #f8f9fa;
+    box-shadow: 1px 2px 2px 1px #0000002b;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+div>div:nth-child(even)>div>div>div.col-2.event-date:nth-of-type(odd) {
+    background-color: #35098D;
+    color: white;
+}
+
+div>div:nth-child(odd)>div>div>div.col-2.event-date:nth-of-type(odd) {
+    background-color: #B34A51;
+    color: white;
+}
+
+.event-day {
+    font-size: 3.5rem;
+    display: inline-block;
+    font-weight: 100;
+    width: 100%;
+    margin-bottom: -1rem;
+}
+
+.event-month {
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: -1rem;
+    padding-bottom: 1rem;
+}
+
+.event-img {
+    padding: 0;
+    max-height: 10rem;
+}
+
+.event-thumbnail {
+    padding: 0;
+}
+
+.event-title {
+    padding-top: 1rem;
+    font-weight: bold;
+}
+
+.event-icon {
+    color: black;
+}
+
+.event-subtitle {
+    margin-top: -.35rem;
+    font-size: .8rem;
+}
+
+.event-summary {
+    border-left: 1px solid #0000001c;
+    padding-top: 2rem;
+    text-align: center;
+}
