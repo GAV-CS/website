@@ -12,6 +12,8 @@
     <link rel="stylesheet" type="text/css" href="styles/bootstrap-social.css">
     <!-- Font Awesome CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- Animate.CSS -->
+    <link rel="stylesheet" href="styles/animate.css">
     <!-- Custom Css -->
     <link rel="stylesheet" href="styles/style.css">
     <!-- Custom Fonts -->
@@ -37,7 +39,7 @@
                     <a class="nav-link" href="events.html">Events<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                        <a class="nav-link" href="projects.html">Projects</a>
+                    <a class="nav-link" href="projects.html">Projects</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="blog.html">Blog</a>
@@ -54,166 +56,189 @@
         </div>
     </nav>
     <!-- End Navbar -->
-    
-    <!-- Start Events Section -->
-    <div class="col-md-12 text-center" id="Upcoming">
-        
-        <h1 class="display-1 text-center">Upcoming Events</h1>
-    
-        <div class="container-fluid" id="About">
-            <div class="card-deck">
-                <div class="card">
-                    <div class="card-body">
-                        <img class="card-img-top" src="images/gcs_logo.png" alt="Card image cap">
-                        <h5 class="card-title">13 March 2018</h5>
-                        <p class="card-text"><strong>CS Club Meeting</strong><br>
-                            <em>BUS 118 @ Gavilan Campus</em><br>
-                            <span class="small">12:00</span>
-                        </p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-body">
-                        <img class="card-img-top" src="images/gcs_logo.png" alt="Card image cap">
-                        <h5 class="card-title">20 March 2018</h5>
-                        <p class="card-text"><strong>CS Club Meeting</strong><br>
-                            <em>BUS 118 @ Gavilan Campus</em><br>
-                            <span class="small">12:00</span>
-                        </p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-body">
-                        <img class="card-img-top" src="images/gavilan.png" alt="Card image cap">
-                        <h5 class="card-title">27 March 2018</h5>
-                        <p class="card-text"><strong>Club Day</strong><br>
-                            <em>Student Center</em><br>
-                            <span class="small">12:00</span>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--
-    <div class="row">
 
-        <div class="col-sm-1 event-gutter"></div>
-        <div class="col-sm-3 event">
-            <div class="container thumbnail">
-                <img class="img-thumbnail" src="images/gcs_logo.png">
-            </div>
-            <div class="col-md-12">
-                <h4><span class="label label-primary">6 March 2018</span></h4>
-            </div>
-            <div class="col-md-12">
-                <strong>CS Club Meeting</strong><br>
-                <em>BUS 118 @ Gavilan Campus</em><br>
-                <span class="small">12:00</span>
+    <!-- Start Events Section -->
+    <div class="container-fluid">
+        <div class="event-header">
+            <h1 class="display-1 text-center">Upcoming Events</h1>
+            <p class="lead text-center"> Here's what we have planned coming up. If you want to add something to the list, contact one of the officers</p>
+        </div>
+        <!-- Each Row is a new event -->
+        <div class="row">
+            <div class="col-sm-8 offset-2 event-body">
+                <div class="row">
+                    <div class="col-2 event-date text-center">
+                        <span class="event-day">20</span>
+                        <span class="event-month">MAR</span>
+                    </div>
+                    <div class="col-2 event-img justify-content-center align-self-center">
+                        <img class="img-fluid float-left event-thumbnail" src="/images/csc-meeting.png">
+                    </div>
+                    <div class="col-3 event-details">
+                        <p class="h6 event-title">CS Club Meeting</p>
+                        <p class="text-muted event-subtitle">
+                            <i class="fa fa-map-marker event-icon"></i> Business Bldg, Room 118<br>
+                            <i class="fa fa-clock-o event-icon"></i> 12:00 PM</p>
+                    </div>
+                    <div class="col-5 event-summary">
+                        <p>Join us for free pizza, drinks, and coding tutorials every Tuesday</p>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="col-sm-1 event-gutter"></div>
-        <div class="col-sm-3 event">
-            <div class="container thumbnail">
-                <img class="img-thumbnail" src="images/gcs_logo.png">
-            </div>
-            <div class="col-md-12">
-                <h4><span class="label label-primary">13 March 2018</span></h4>
-            </div>
-            <div class="col-md-12">
-                <strong>CS Club Meeting</strong><br>
-                <em>BUS 118 @ Gavilan Campus</em><br>
-                <span class="small">12:00</span>
-            </div>
-        </div>
-        <div class="col-sm-1 event-gutter"></div>
-        <div class="col-sm-3 event">
-            <div class="container thumbnail">
-                <img class="img-thumbnail" src="images/gcs_logo.png">
-            </div>
-            <div class="col-md-12">
-                <h4><span class="label label-primary">20 March 2018</span></h4>
-            </div>
-            <div class="col-md-12">
-                <strong>CS Club Meeting</strong><br>
-                <em>BUS 118 @ Gavilan Campus</em><br>
-                <span class="small">12:00</span>
+
+        <div class="row">
+            <div class="col-sm-8 offset-2 event-body">
+                <div class="row">
+                    <div class="col-2 event-date text-center">
+                        <span class="event-day">27</span>
+                        <span class="event-month">MAR</span>
+                    </div>
+                    <div class="col-2 event-img justify-content-center align-self-center">
+                        <img class="img-fluid float-left event-thumbnail" src="/images/gavilan.png">
+                    </div>
+                    <div class="col-3 event-details">
+                        <p class="h6 event-title">Club Day Event</p>
+                        <p class="text-muted event-subtitle">
+                            <i class="fa fa-map-marker event-icon"></i> Gavilan Student Center<br>
+                            <i class="fa fa-clock-o event-icon"></i> 12:00 PM</p>
+                    </div>
+                    <div class="col-5 event-summary">
+                        <p>Join us for free pizza, drinks, and coding tutorials every Tuesday</p>
+                    </div>
+                </div>
             </div>
         </div>
+
+
+
+        <div class="row">
+            <div class="col-sm-8 offset-2 event-body">
+                <div class="row">
+                    <div class="col-2 event-date text-center">
+                        <span class="event-day">3</span>
+                        <span class="event-month">APR</span>
+                    </div>
+                    <div class="col-2 event-img justify-content-center align-self-center">
+                        <img class="img-fluid float-left event-thumbnail" src="/images/csc-meeting.png">
+                    </div>
+                    <div class="col-3 event-details">
+                        <p class="h6 event-title">CS Club Meeting</p>
+                        <p class="text-muted event-subtitle">
+                            <i class="fa fa-map-marker event-icon"></i> Business Bldg, Room 118<br>
+                            <i class="fa fa-clock-o event-icon"></i> 12:00 PM</p>
+                    </div>
+                    <div class="col-5 event-summary">
+                        <p>Join us for free pizza, drinks, and coding tutorials every Tuesday</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-8 offset-2 event-body">
+                <div class="row">
+                    <div class="col-2 event-date text-center">
+                        <span class="event-day">10</span>
+                        <span class="event-month">APR</span>
+                    </div>
+                    <div class="col-2 event-img justify-content-center align-self-center">
+                        <img class="img-fluid float-left event-thumbnail" src="/images/csc-meeting.png">
+                    </div>
+                    <div class="col-3 event-details">
+                        <p class="h6 event-title">CS Club Meeting</p>
+                        <p class="text-muted event-subtitle">
+                            <i class="fa fa-map-marker event-icon"></i> Business Bldg, Room 118<br>
+                            <i class="fa fa-clock-o event-icon"></i> 12:00 PM</p>
+                    </div>
+                    <div class="col-5 event-summary">
+                        <p>Join us for free pizza, drinks, and coding tutorials every Tuesday</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-8 offset-2 event-body">
+                <div class="row">
+                    <div class="col-2 event-date text-center">
+                        <span class="event-day">17</span>
+                        <span class="event-month">APR</span>
+                    </div>
+                    <div class="col-2 event-img justify-content-center align-self-center">
+                        <img class="img-fluid float-left event-thumbnail" src="/images/csc-meeting.png">
+                    </div>
+                    <div class="col-3 event-details">
+                        <p class="h6 event-title">CS Club Meeting</p>
+                        <p class="text-muted event-subtitle">
+                            <i class="fa fa-map-marker event-icon"></i> Business Bldg, Room 118<br>
+                            <i class="fa fa-clock-o event-icon"></i> 12:00 PM</p>
+                    </div>
+                    <div class="col-5 event-summary">
+                        <p>Join us for free pizza, drinks, and coding tutorials every Tuesday</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
     </div>
-    -->
-    
+
+
     <!-- End of Events -->
 
-    
-    <!-- About Section -->
-    <div class="container-fluid" id="About">
-        <div class="card-deck">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">About Us</h5>
-                    <p class="card-text">The Gavilan Computer Science Club is available for students to relax, study and collaborate with other students for class or projects involving Computer Science. Our meetings are held every Tuesday, 12-1PM in BUS-118. </p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Our Goals</h5>
-                    <p class="card-text">Gavilan's CS Club provides networking opportunities both inside and out of the classroom. They also strive to attend major hackathon competitions, as well as provide instructional aides for all members.</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Become a Member</h5>
-                    <p class="card-text">To become a member, simply attend one of our meetings or submit a contact request form below</p>
-                    <button type="button" class="btn btn-primary btn-lg btn-block">Join Here</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End About Section -->
 
-   <!-- Start of Footer Section -->
-    <footer class="footer">
-    <div class="container">
-        <div class="row">
-        <div class="col-sm-5">
-            <h4 class="title">Gavilan CS Club</h4>
-            <p>A club for any Gavilan students interested in the world of Computer Science.</p>
-            <ul class="social-icon">
-                <a href="#" class="social"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                <a href="#" class="social"><i class="fa fa-slack" aria-hidden="true"></i></a>
-                <a href="#" class="social"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                <a href="#" class="social"><i class="fa fa-github" aria-hidden="true"></i></a>
-            </ul>
-        </div>
-        <div class="col-sm-3">
-            <h4 class="title">Site Map</h4>
-            <span class="acount-icon">          
-            <a href="index.html"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
-            <a href="about.html"><i class="fa fa-question" aria-hidden="true"></i> About</a>
-            <a href="events.html"><i class="fa fa-calendar" aria-hidden="true"></i>Events</a>
-            <a href="projects.html"><i class="fa fa-code" aria-hidden="true"></i>Projects</a>
-            <a href="blog.html"><i class="fa fa-globe" aria-hidden="true"></i> Blog</a> 
+
+
+    <!-- Start of Footer Section -->
+    <footer class="footer ">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-sm-5 ">
+                    <h4 class="title ">Gavilan CS Club</h4>
+                    <p>A club for any Gavilan students interested in the world of Computer Science.</p>
+                    <ul class="social-icon ">
+                        <a href="# " class="social "><i class="fa fa-facebook " aria-hidden="true "></i></a>
+                        <a href="# " class="social "><i class="fa fa-slack " aria-hidden="true "></i></a>
+                        <a href="# " class="social "><i class="fa fa-linkedin " aria-hidden="true "></i></a>
+                        <a href="# " class="social "><i class="fa fa-github " aria-hidden="true "></i></a>
+                    </ul>
+                </div>
+                <div class="col-sm-3 ">
+                    <h4 class="title ">Site Map</h4>
+                    <span class="acount-icon ">          
+            <a href="index.html "><i class="fa fa-home " aria-hidden="true "></i>Home</a>
+            <a href="about.html "><i class="fa fa-question " aria-hidden="true "></i> About</a>
+            <a href="events.html "><i class="fa fa-calendar " aria-hidden="true "></i>Events</a>
+            <a href="projects.html "><i class="fa fa-code " aria-hidden="true "></i>Projects</a>
+            <a href="blog.html "><i class="fa fa-globe " aria-hidden="true "></i> Blog</a> 
             </span>
-        </div>
-        <div class="col-sm-4">
-            <h4 class="title">Become a member</h4>
-            <p>Membership is free and easy, any student at Gavilan can apply.</p>
-            <div class="footer-membership">
-                <button class="container-fluid btn btn-secondary" type="submit"> Signup</button>
+                </div>
+                <div class="col-sm-4 ">
+                    <h4 class="title ">Become a member</h4>
+                    <p>Membership is free and easy, any student at Gavilan can apply.</p>
+                    <div class="footer-membership ">
+                        <button class="container-fluid btn btn-secondary " type="submit "> Signup</button>
+                    </div>
+                </div>
             </div>
-            </div>
+            <hr>
+            <div class="row text-center "><a href="index.html " style="color: #fff; ">Copyright © Gavilan CS Club 2018</a></div>
         </div>
-        <hr>
-        <div class="row text-center"><a href="index.html" style="color: #fff;">Copyright © Gavilan CS Club 2018</a></div>
-    </div>	
-</footer>
-<!-- End of Footer Section -->
+    </footer>
+    <!-- End of Footer Section -->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js " integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4 " crossorigin="anonymous "></script>
+    <script>
+        $(".event-body:odd").addClass("animated slideInRight");
+        $(".event-body:even").addClass("animated slideInLeft");
+        $(".event-body").hover(function() {
+            $(this).toggleClass("event-hover");
+        });
+    </script>
 </body>
 
 </html>
