@@ -72,8 +72,11 @@ Coming Soon
 
 ## Contributing
 
-Please read our contribution manual for details on our code of conduct, and the process for submitting pull requests to us. (Coming Soon)
-
+Fork it!
+Create your feature branch: git checkout -b my-new-feature
+Commit your changes: git commit -am 'Add some feature'
+Push to the branch: git push origin my-new-feature
+Submit a pull request :D
 
 ## Authors
 
