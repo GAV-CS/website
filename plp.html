@@ -16,15 +16,20 @@
     <link rel="stylesheet" href="styles/style.css">
     <!-- Custom Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
-    
+
     <style type="text/css" media="screen">
-    #editor { 
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-    }
+        #editor {
+            margin-top: 1rem;
+            padding-bottom: 40%;
+            position: relative;
+            top: 0;
+            height: 100%;
+        }
+        
+        #bottom-footer {
+            position: relative;
+            margin-top: 2.5rem;
+        }
     </style>
 
     <title>Gavilan Computer Science Club</title>
@@ -64,106 +69,69 @@
         </div>
     </nav>
     <!-- End Navbar -->
-    <!-- Beginning the Project Landing Page -->
-   <div class="col-md-12 text-center" id="Project">
-    <h1 class="display-1 text-center">Projects</h1>
-       
-       <div class="col-md-12">
-       The Gavilan Computer Science Club is available for students to relax, study and collaborate with other students for class or projects involving Computer Science. Our meetings are held every Tuesday, 12-1PM in BUS-118. The Gavilan Computer Science Club is available for students to relax, study and collaborate with other students for class or projects involving Computer Science. Our meetings are held every Tuesday, 12-1PM in BUS-118. The Gavilan Computer Science Club is available for students to relax, study and collaborate with other students for class or projects involving Computer Science. Our meetings are held every Tuesday, 12-1PM in BUS-118. The Gavilan Computer Science Club is available for students to relax, study and collaborate with other students for class or projects involving Computer Science. Our meetings are held every Tuesday, 12-1PM in BUS-118. 
-       
-           <div id="editor">function foo(items) {
-        var x = "All this is syntax highlighted";
-        return x;
-           }</div>
-           
-       </div>
-       
-       
-    </div>
-    
-    
-    
 
-    <!-- Card Section -->
-    <div class="container-fluid" id="About">
-        <div class="card-deck">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">About Us</h5>
-                    <p class="card-text">The Gavilan Computer Science Club is available for students to relax, study and collaborate with other students for class or projects involving Computer Science. Our meetings are held every Tuesday, 12-1PM in BUS-118. </p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Our Goals</h5>
-                    <p class="card-text">Gavilan's CS Club provides networking opportunities both inside and out of the classroom. They also strive to attend major hackathon competitions, as well as provide instructional aides for all members.</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Upcoming Events</h5>
-                    <p class="card-text row">
-                        <div class="col-sm-12"><b>13 MAR</b> - CS Club Meeting </div>
-                        <div class="col-sm-12"><b>20 MAR</b> - CS Club Meeting </div>
-                        <div class="col-sm-12"><b>27 MAR</b> - Organization Day</div>
-                    </p>
-                    <a href="events.html"><button type="button" class="btn btn-success btn-lg btn-block">View Events</button></a>
+    <!-- Beginning the Code Edditor -->
+    <div class="container-fluid">
+        <h1 class="display-1 text-center">Projects</h1>
+        <div class="row">
+            <div class="col-12">
+                <div id="editor" class="rounded">// Welcome to the Gavilan CS Club's Editors // Place your code here function foo(items) { var x = "All this is syntax highlighted"; return x; }
                 </div>
             </div>
         </div>
     </div>
     <!-- End Card Section -->
-    
-   <!-- Start of Footer Section -->
-    <footer class="footer">
-    <div class="container">
-        <div class="row">
-        <div class="col-sm-5">
-            <h4 class="title">Gavilan CS Club</h4>
-            <p>A club for any Gavilan students interested in the world of Computer Science.</p>
-            <ul class="social-icon">
-                <a href="#" class="social"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                <a href="#" class="social"><i class="fa fa-slack" aria-hidden="true"></i></a>
-                <a href="#" class="social"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                <a href="#" class="social"><i class="fa fa-github" aria-hidden="true"></i></a>
-            </ul>
-        </div>
-        <div class="col-sm-3">
-            <h4 class="title">Site Map</h4>
-            <span class="acount-icon">          
+
+    <!-- Start of Footer Section -->
+    <footer class="footer" id="bottom-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5">
+                    <h4 class="title">Gavilan CS Club</h4>
+                    <p>A club for any Gavilan students interested in the world of Computer Science.</p>
+                    <ul class="social-icon">
+                        <a href="#" class="social"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="#" class="social"><i class="fa fa-slack" aria-hidden="true"></i></a>
+                        <a href="#" class="social"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        <a href="#" class="social"><i class="fa fa-github" aria-hidden="true"></i></a>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h4 class="title">Site Map</h4>
+                    <span class="acount-icon">          
             <a href="index.html"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
             <a href="about.html"><i class="fa fa-question" aria-hidden="true"></i> About</a>
             <a href="events.html"><i class="fa fa-calendar" aria-hidden="true"></i>Events</a>
             <a href="projects.html"><i class="fa fa-code" aria-hidden="true"></i>Projects</a>
             <a href="blog.html"><i class="fa fa-globe" aria-hidden="true"></i> Blog</a> 
             </span>
-        </div>
-        <div class="col-sm-4">
-            <h4 class="title">Become a member</h4>
-            <p>Membership is free and easy, any student at Gavilan can apply.</p>
-            <div class="footer-membership">
-                <button class="container-fluid btn btn-secondary" type="submit"> Signup </button>
+                </div>
+                <div class="col-sm-4">
+                    <h4 class="title">Become a member</h4>
+                    <p>Membership is free and easy, any student at Gavilan can apply.</p>
+                    <div class="footer-membership">
+                        <button class="container-fluid btn btn-secondary" type="submit"> Signup </button>
+                    </div>
+                </div>
             </div>
-            </div>
+            <hr>
+            <div class="row text-center"><a href="index.html" style="color: #fff;">Copyright © Gavilan CS Club 2018</a></div>
         </div>
-        <hr>
-        <div class="row text-center"><a href="index.html" style="color: #fff;">Copyright © Gavilan CS Club 2018</a></div>
-    </div>	
-</footer>
-<!-- End of Footer Section -->
-   
+    </footer>
+    <!-- End of Footer Section -->
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
-    
+
     <script src="/ace-builds/src-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
     <script>
         var editor = ace.edit("editor");
         editor.setTheme("ace/theme/monokai");
         editor.session.setMode("ace/mode/javascript");
-    </script>   
+    </script>
 </body>
 
 </html>
